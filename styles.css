@@ -32,7 +32,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0); 
     padding: 8px 16px; 
-    transition: background-color 0.3s; 
+    transition: background-color 0.05s; 
     font-family: 'Courier New';
 }
 
@@ -43,14 +43,14 @@
 }
 
 .nav-list a:active {
-    background-color: rgb(263, 268, 203);
+    opacity: 0.7;
 }
 
 body {
-    background-color: rgb(255, 244, 230);
+    background-color: rgb(255, 230, 198);
 }
 
-/*Designed these buttons a over summer using youtube*/
+/*Designed these buttons over summer using youtube*/
 input[type="submit"]{
     color: black;
     background-color: rgb(241, 147, 52);
@@ -63,4 +63,22 @@ input[type="submit"]{
     padding-left: 24px;
     cursor: pointer;
     transition: background-color 0.05s;
+}
+
+input[type = "submit"]:hover{
+    background-color: rgb(311, 109, 6);
+}
+
+input[type = "submit"]:active{
+    opacity: 0.7;
+}
+
+.project {
+    width: 300px; 
+    height: 200px; 
+}
+
+.project img {
+    width: 100%; 
+    height: auto; 
 }
