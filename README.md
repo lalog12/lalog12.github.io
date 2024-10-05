@@ -7,5 +7,5 @@ blog: An about me page where the reader can get to know information and fun fact
 
 contact: My contact information.
 
-portfolio: Information on my prior projects, extracurriculars, and projects.
+portfolio: Information on my prior projects, extracurriculars, and internships.
 
