@@ -1,0 +1,66 @@
+
+.nav-list {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(238, 238, 182); 
+    padding: 10px 20px; 
+}
+
+
+.logo a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 24px; 
+    font-family: 'Courier New';
+}
+
+
+.nav-list li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    padding: 8px 16px; 
+    transition: background-color 0.3s; 
+    font-family: 'Courier New';
+}
+
+
+.nav-list a:hover {
+    background-color:  rgb(243, 248, 183);
+    border-radius: 4px; 
+}
+
+.nav-list a:active {
+    background-color: rgb(263, 268, 203);
+}
+
+body {
+    background-color: rgb(255, 244, 230);
+}
+
+/*Designed these buttons a over summer using youtube*/
+input[type="submit"]{
+    color: black;
+    background-color: rgb(241, 147, 52);
+    border-style:solid;
+    border: none;
+    border-radius: 13px;
+    padding-bottom:6px;
+    padding-top: 6px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    transition: background-color 0.05s;
+}
