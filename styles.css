@@ -110,3 +110,37 @@ input[type = "submit"]:active{
 .section {
     font-family: 'Times New Roman';
 }
+
+contact-form {
+    display: flex;                  
+    flex-direction: column;         
+    justify-content: center;        
+    align-items: center;            
+    max-width: 400px;              
+    margin: auto;                  
+}
+
+
+
+
+#contact-form {
+    display: flex;                  
+    flex-direction:column;         
+    justify-content: center;       
+    align-items: center;           
+    max-width: 400px;              
+    width: 100%;                  
+    margin: auto;                 
+}
+
+input[type="text"], textarea {
+    width: 100%;                 
+    padding: 10px;               
+    margin-bottom: 10px;         
+    border: 1px solid #ccc;       
+    border-radius: 5px;          
+}
+
+
+
+
