@@ -94,3 +94,19 @@ input[type = "submit"]:active{
     width: 100%;
     height: auto;
 }
+
+.project-details {
+    font-family: 'Courier New';
+}
+
+.page-title {
+    font-family: 'Roboto';
+}
+
+.about-text {
+    font-family: 'Courier New';
+}
+
+.section {
+    font-family: 'Times New Roman';
+}
